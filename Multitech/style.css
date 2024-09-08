@@ -56,6 +56,7 @@ nav {
 }
 
 #h2-m {
+    font-weight: 400;
     padding-top:50px ;
     font-size: 90px;
     text-align: center;
@@ -67,14 +68,14 @@ nav {
     text-align: center;
     margin-right: auto;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 400;
     width: 500px;
 }
 
 #div-m {
     width: 700px;
     height: 300px;
-    background-color: #E1E1E1;
+    background-color: #f8f8f8;
     margin-left: auto;
     margin-right: auto;
 }
@@ -82,34 +83,39 @@ nav {
 footer {
     margin-top: 70px;
     width: 100%;
-    height: 250px;
+    height: 100vh;
     background-color: black;
 }
 
 #div-f {
     margin-right: auto;
     margin-left: auto;
-    width: 1150px;
+    width: 1500px;
+}
+
+.div-f-img {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-image: url("/img/phone.jpg");
 }
 
 .div-f-i {
-    margin-top: 50px;
+    margin-top: 100px;
     width: 180px;
-    height: 180px;
-    background-image: url("img/phone.jpg");
-    background-color: white;
     margin-left: 100px;
+    height: 180px;
 }
 
 .div-f-i-1 {
-    margin-left: -100px;
 }
 
 .div-f-i-s {
+    width: 100%;
     display: none;
-    margin-top: auto;
-    background-color: blue;
-    height: 70px;
+    margin-top: 123px;
+    background-color:rgba(255, 255, 255,1);
+    position: relative;
 }
 
 .div-f-i:hover {
