@@ -1,0 +1,72 @@
+
+/* form */
+
+
+#nav-left {
+    height: 100%;
+    width: 30%;
+    background-color: blue;
+}
+
+#h2-nav {
+    font-size: 40px;
+    padding-top: 50px;
+    font-weight: 400;
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+
+.f-i {
+    margin-right: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.f-d {
+    margin-left: 20%;
+}
+
+.f-h3 {
+    font-size: 30px;
+    margin-right:20px;
+}
+
+.f-input {
+    margin-left: 60px;
+    margin-top: 30px;
+    border: none;
+    background-color: white;
+    border-style: none;
+    width: 30px;
+    height: 30px;
+}
+
+.n-h3 {
+    margin-top: 60px;
+    font-size: 30px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/* div */
+
+
+#d-main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.d-s {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
